@@ -18,7 +18,7 @@ public class Empresa   //Nome da classe
     }
 
     public int InserirNoFuncionarios(int noFuncionarios) => _noFuncionarios = noFuncionarios; //metodo
-    public int ObterNoFuncionarios() => return _noFuncionarios;                               //metodo
+    public int ObterNoFuncionarios() => _noFuncionarios;                                      //metodo
 }
 
 
